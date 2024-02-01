@@ -1,8 +1,8 @@
 const splash_screen = document.querySelector(".splash");
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
+const exit_btn = info_box.querySelector(".buttons .quit_btn"); // Updated selector
+const continue_btn = info_box.querySelector(".buttons .restart_btn"); // Updated selector
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
